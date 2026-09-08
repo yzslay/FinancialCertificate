@@ -1,0 +1,2 @@
+Resume this session with:
+  grok --resume 01a080cc-fdf2-7393-8d1f-82e5dbc36253
