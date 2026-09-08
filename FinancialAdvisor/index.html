@@ -6,24 +6,24 @@
 <title>理財規劃人員｜歷屆考題詳解</title>
 <style>
   :root {
-    --text: #1a1a1a;
-    --muted: #555;
-    --accent: #0b3d91;
-    --accent-soft: #e8eef8;
-    --bg: #fafafa;
-    --card: #fff;
-    --line: #e5e7eb;
+    --text: #1c2430;
+    --muted: #4a5568;
+    --accent: #1554c0;
+    --accent-soft: #e8f0ff;
+    --bg: #f3f6fb;
+    --card: #ffffff;
+    --line: #d7e0ee;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
     font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
-    font-size: 16px;
-    line-height: 1.7;
+    font-size: 17px;
+    line-height: 1.75;
     color: var(--text);
     background: var(--bg);
   }
-  .wrap { max-width: 820px; margin: 0 auto; padding: 24px 18px 64px; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 24px 18px 64px; }
   header.cover {
     text-align: center;
     padding: 36px 18px 24px;
@@ -40,18 +40,18 @@
     font-weight: 700;
     margin-bottom: 10px;
   }
-  header.cover h1 { font-size: 1.6rem; margin: 0 0 8px; line-height: 1.4; }
+  header.cover h1 { font-size: 1.65rem; margin: 0 0 8px; line-height: 1.4; }
   header.cover .sub { color: var(--muted); margin: 0 0 12px; }
   .note {
     text-align: left;
-    background: #f3f6fb;
+    background: #eaf1fb;
     border-radius: 8px;
     padding: 12px 14px;
-    font-size: 0.92rem;
-    color: var(--muted);
+    font-size: 0.95rem;
+    color: #334155;
   }
   h2.sec {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     color: var(--accent);
     border-bottom: 2px solid var(--accent);
     padding-bottom: 6px;
@@ -73,7 +73,7 @@
   }
   a.exam:hover {
     border-color: var(--accent);
-    box-shadow: 0 4px 16px rgba(11, 61, 145, 0.08);
+    box-shadow: 0 4px 16px rgba(21, 84, 192, 0.1);
     transform: translateY(-1px);
   }
   a.exam:focus-visible {
@@ -96,7 +96,7 @@
   .badge .n { font-size: 1.25rem; font-weight: 800; }
   .badge .u { font-size: 0.7rem; font-weight: 600; }
   .exam h3 { margin: 0 0 4px; font-size: 1.08rem; color: var(--accent); }
-  .exam p { margin: 0; font-size: 0.9rem; color: var(--muted); }
+  .exam p { margin: 0; font-size: 0.92rem; color: var(--muted); }
   .arrow {
     color: var(--accent);
     font-size: 1.4rem;
@@ -107,24 +107,11 @@
     margin-top: 40px;
     text-align: center;
     color: var(--muted);
-    font-size: 0.85rem;
+    font-size: 0.9rem;
   }
   @media (max-width: 520px) {
     a.exam { grid-template-columns: auto 1fr; }
     .arrow { display: none; }
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --text: #e8eaed;
-      --muted: #a0a4ab;
-      --accent: #8ab4f8;
-      --accent-soft: #1c2a44;
-      --bg: #121212;
-      --card: #1e1e1e;
-      --line: #333;
-    }
-    .note { background: #243044; }
-    a.exam:hover { box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35); }
   }
 </style>
 </head>
@@ -150,7 +137,13 @@
   const exams = [
     { no: 48, href: "QA/No48.html" },
     { no: 47, href: "QA/No47.html" },
-    { no: 46, href: "QA/No46.html" }
+    { no: 46, href: "QA/No46.html" },
+    { no: 45, href: "QA/No45.html" },
+    { no: 44, href: "QA/No44.html" },
+    { no: 43, href: "QA/No43.html" },
+    { no: 42, href: "QA/No42.html" },
+    { no: 41, href: "QA/No41.html" },
+    { no: 40, href: "QA/No40.html" }
   ];
 
   const list = document.getElementById("exams");
